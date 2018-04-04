@@ -1,0 +1,6 @@
+1先对RemoteConcreteWindow进行编译。
+2对RemoteConcreteWindow进行注册：rimc RemoteConcreteWindow 会生成RemoteConcreteWindow_Stub.class文件(存根就是代理)
+将存根复制到client下
+3start rmicregistry
+4运行serve下的BindRemoteWindow此时servre启动；
+5运行client下的client
